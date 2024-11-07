@@ -1,0 +1,29 @@
+form{
+  background-color: burlywood;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 20px;
+  label{
+    margin-left: 10px;
+    
+    input{
+      width: 170px;
+      height: 25px;
+      margin: 5px 8px;
+    }
+    #submit{
+      background-color: coral;
+    }
+    textarea{
+      width: 200px;
+      height: 140px;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      margin-left: 10px;
+    }
+  }
+  
+}
+
